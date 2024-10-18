@@ -1,7 +1,7 @@
 import axios, { CanceledError } from "axios";
 
 const axiosInstance = axios.create({
-  baseURL: "https://trs-crfja2d0acc8fgcr.eastus-01.azurewebsites.net/api",
+  baseURL: "http://localhost:3000/api",
 });
 
 class APIClient {
